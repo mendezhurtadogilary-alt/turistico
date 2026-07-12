@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <ul>
+                <li><a href="inicio.html">inicio</a></li>
+                <li><a href="servicios.html">servicios</a></li>
+                <li><a href="galeria.html">galeria</a></li>
+                <li><a href="reservas.html">reservas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+
+            
+    <header>
+    <h1>🌴 Servicios del Recreo Turístico</h1>
+</header>
+
+<section class="servicios">
+
+    <div class="card">
+        <h2>🏊 Piscinas</h2>
+        <p>
+            Disfruta de piscinas para niños y adultos, con agua limpia,
+            zonas de descanso y seguridad para toda la familia.
+        </p>
+        <button>Más información</button>
+    </div>
+
+    <div class="card">
+        <h2>🍽 Restaurante</h2>
+        <p>
+            Ofrecemos platos típicos, comida rápida, bebidas y postres
+            preparados con ingredientes frescos.
+        </p>
+        <button>Ver menú</button>
+    </div>
+
+    <div class="card">
+        <h2>🏡 Bungalows</h2>
+        <p>
+            Hospédate en cómodos bungalows totalmente equipados para
+            descansar en un ambiente natural.
+        </p>
+        <button>Reservar</button>
+    </div>
+
+    <div class="card">
+        <h2>🎉 Eventos</h2>
+        <p>
+            Organizamos cumpleaños, matrimonios, reuniones familiares
+            y eventos empresariales.
+        </p>
+        <button>Solicitar información</button>
+    </div>
+
+    <h2> GRACIAS POR SU visita</h2>
+<style>
+    body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+header{
+    background:#0a7b43;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#0a7b43;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#ff9800;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#e68900;
+}
+</style>
+</section>
+
+</body>
+</html>
